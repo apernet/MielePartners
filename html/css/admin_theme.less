@@ -1,0 +1,513 @@
+//@import "less/bootstrap.less";
+
+// Core variables and mixins
+@import "less/variables.less";
+@import "less/mixins.less";
+
+// Reset
+@import "less/normalize.less";
+@import "less/print.less";
+
+// Core CSS
+@import "less/scaffolding.less";
+@import "less/type.less";
+@import "less/code.less";
+@import "less/grid.less";
+@import "less/tables.less";
+@import "less/forms.less";
+@import "less/buttons.less";
+
+// Components
+@import "less/component-animations.less";
+@import "less/glyphicons.less";
+@import "less/dropdowns.less";
+@import "less/button-groups.less";
+@import "less/input-groups.less";
+@import "less/navs.less";
+@import "less/navbar.less";
+@import "less/breadcrumbs.less";
+@import "less/pagination.less";
+@import "less/pager.less";
+@import "less/labels.less";
+@import "less/badges.less";
+@import "less/jumbotron.less";
+@import "less/thumbnails.less";
+@import "less/alerts.less";
+@import "less/progress-bars.less";
+@import "less/media.less";
+@import "less/list-group.less";
+@import "less/panels.less";
+@import "less/wells.less";
+@import "less/close.less";
+
+// Components w/ JavaScript
+@import "less/modals.less";
+@import "less/tooltip.less";
+@import "less/popovers.less";
+@import "less/carousel.less";
+
+
+// Utility classes
+@import "less/utilities.less";
+@import "less/responsive-utilities.less";
+
+@import "bc_styles.less";
+
+
+.solid-shadow-input(@color) {
+	-moz-box-shadow: 1px 1px 0px @color;
+	-webkit-box-shadow: 1px 1px 0px @color;
+	box-shadow: 1px 1px 0px @color;
+}
+
+.solid-shadow-wrapper(@color) {
+	-moz-box-shadow: 1px 3px 0px @color;
+	-webkit-box-shadow: 1px 3px 0px @color;
+	box-shadow: 1px 3px 0px @color;
+}
+
+.solid-shadow-btn(@color) {
+	-moz-box-shadow: 0px 3px 0px @color;
+	-webkit-box-shadow: 0px 3px 0px @color;
+	box-shadow: 0px 3px 0px @color;
+}
+
+.blur-shadow-btn(@color) {
+	-moz-box-shadow:inset 1px 2px 4px @color;
+	-webkit-box-shadow:inset 1px 2px 4px @color;
+	box-shadow:inset 1px 2px 4px @color;
+}
+
+.box-shadow {
+	-moz-box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-shadow(@color) {
+	.solid-shadow-btn(darken((@color), 10%));
+	border-color: darken((@color), 10%);
+	border-top: none;
+}
+
+.btn-shadow-active(@color) {
+	.blur-shadow-btn(darken(@color, 10%));
+}
+
+button, input, a {
+	line-height: normal !important; 
+}
+
+.btn-transparent {
+	.button-variant(@brand-primary; rgba(255, 255, 255, 0); rgba(255, 255, 255, 0));
+	.text-shadow-light;
+}
+
+.btn-transparent:hover {
+	.button-variant(darken(@brand-primary, 10%); rgba(0, 0, 0, .05); rgba(255, 255, 255, 0));
+}
+
+.btn-dashboard {
+	.button-variant(#797979; rgba(255, 255, 255, 0); rgba(255, 255, 255, 0));
+}
+
+.btn-dashboard:hover {
+	.button-variant(@brand-primary; rgba(0, 0, 0, 0); rgba(255, 255, 255, 0));
+}
+
+
+.btn-xs {
+  padding: 3px 10px;
+  font-size: .85em;
+}
+
+//  	PLANCHADOS
+
+.navbar-brand {
+	padding: .2em .5em;
+}
+
+.form-control {
+	.solid-shadow-input(rgba(226, 226, 228, .8));
+	padding: .1em .5em;
+}
+
+.navbar {
+	button.btn {
+		background-color: @transparent;
+		color: @brand-primary;
+		border: none;
+		padding: 0 .5em;
+
+	}
+	.btn:hover {
+		color: darken(@brand-primary, 10%)
+	}
+}
+
+.menu-principal {
+	border-top: 5px solid @texto;
+	background-color: #fff;
+	.navbar {
+		margin-bottom: 0;
+	}
+}
+
+.admin-wrapper {
+	background-color: #fff;
+	border: 1px solid #bbbbbb;
+	.solid-shadow-wrapper(rgba(220, 220, 220, 0.5));
+	margin-top: 4.5em;
+	margin-bottom: 1.5em;
+	padding-bottom: 2em;
+}
+
+.formulario-head {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	margin-bottom: 2em;
+	.box-shadow;
+	h4 {
+		font-size: 17px;
+	}
+	a {
+		margin-top: .3em;
+	}
+}
+
+.barra-btn {
+	margin-top: 2em;
+	margin-bottom: 1.5em;
+	.btn {
+		margin: 0 1em 0 .5em;
+	}
+}
+.btn {
+	.rounded-corners(3px);
+}
+.btn-primary {
+	.btn-shadow(@brand-primary);
+}
+.btn-primary:hover {
+	.btn-shadow(darken(@brand-primary, 10%))
+}
+.btn-primary:active {
+	.btn-shadow-active(darken(@brand-primary, 10%))
+}
+
+.btn-default {
+	.btn-shadow(#595F69);
+}
+.btn-default:hover {
+	.btn-shadow(darken(#595F69, 10%))
+}
+.btn-default:active {
+	.btn-shadow-active(darken(#595F69, 10%))
+}
+
+table {
+	thead tr {
+		.box-shadow;
+		td {
+			color: @brand-primary;
+			font-weight: bold;
+		}
+	}
+	tbody tr td {
+		vertical-align: middle !important;
+		border-top: 1px dotted #cfd8e6;
+		.label {
+			margin: 0 .4em;
+		}
+		a {
+			color: #595f69;
+		}
+		a:hover {
+			text-decoration: none;
+		}
+	}
+	tfoot {
+		border:none;
+		background-color: @back;
+		p {
+			color: @brand-primary;
+		} 
+	}
+}
+
+.accion {
+	font-weight: 500;
+	margin-left: .4em;
+}
+
+.accion:hover {
+	text-decoration: none;
+	.text-shadow-light;
+}
+
+.accion1 {
+	color: @status1;
+}
+.accion1:hover {
+	color: darken(@status1, 10%);
+}
+.accion2 {
+	color: @status2;
+}
+.accion2:hover {
+	color: darken(@status2, 10%);
+}
+.accion3 {
+	color: @status3;
+}
+.accion3:hover {
+	color: darken(@status3, 10%);
+}
+.accion4 {
+	color: @status4;
+}
+.accion4:hover {
+	color: darken(@status4, 10%);
+}
+.label a {
+	color: #fff;
+}
+.label a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.label-status1 {
+	.label-variant(#9358ac);
+}
+
+.label-status1:hover {
+	.label-variant(darken(#9358ac, 10%))
+}
+
+.label-status2 {
+	.label-variant(#efa131);
+}
+.label-status2:hover {
+	.label-variant(darken(#efa131, 10%))
+}
+
+.label-status3 {
+	.label-variant(#e73c3c);
+}
+.label-status3:hover {
+	.label-variant(darken(#e73c3c, 10%))
+}
+
+.label-status4 {
+	.label-variant(#2bbce0);
+}
+.label-status4:hover {
+	.label-variant(darken(#2bbce0, 10%))
+}
+
+.label-status5 {
+	.label-variant(#38475d);
+}
+.label-status5:hover {
+	.label-variant(darken(#38475d, 10%))
+}
+
+.label-status6 {
+	.label-variant(#78ba38);
+}
+.label-status6:hover {
+	.label-variant(darken(#78ba38, 10%))
+}
+
+
+.msg {
+	.alert;
+	margin-left: .5em;
+	margin-top: 1em;
+	border: none;
+	position: relative;
+	padding-left: 3em;
+	span.fa-stack {
+		left: -17px;
+	    position: absolute;
+	    top: -6px;
+	}
+}
+
+.info {
+	.alert-info;
+}
+
+.error {
+	.alert-danger;
+}
+
+.done {
+	.alert-success;
+}
+
+.sin_resultados {
+	.alert-variant(@state-sin_resultados-bg; @state-sin_resultados-border; @state-sin_resultados-text);
+	.solid-shadow-btn(#dedcdc);
+	text-align: center;
+	border: 1px solid #f0f0f0;
+}
+
+.req {
+	color: @brand-primary;
+}
+
+.panel-title > a {
+	display: block;
+	color: @brand-primary;
+}
+
+.panel-title > a:hover {
+	text-decoration: none;
+}
+
+.panel-default {
+	border-color: #e6e7ec;
+	.box-shadow-none;
+}
+
+.panel-default > .panel-heading {
+	background-color: #fff;
+}
+
+.panel-group .panel-heading + .panel-collapse .panel-body {
+	border-top: none;
+}
+
+
+.pagination {
+	.no-margin;
+	li a{
+		color: @texto;
+		
+	}
+	li a:hover {
+		color: @brand-primary;
+		border: 1px solid #cfd8e6;
+		.rounded-corners(3px);
+	}
+	.disabled {
+		span, span:hover {
+			color: @brand-primary;
+			font-weight: 500;
+			background-color: #fff;
+			border: 1px solid #cfd8e6;
+			.rounded-corners(3px);
+		}
+	}
+}
+
+.pagination > li > a, .pagination > li > span {
+	padding: 3px 10px;
+}
+
+/*
+.login {
+	background-color: #fff;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	width: 100%;
+}*/
+
+.admin-login {
+	margin-top: 14em;
+	margin-bottom: 14em;
+	.admin-login-logo {
+		padding: 2em;
+	}
+	.admin-login-body {
+		border: 1px solid #e2e2e4;
+		.rounded-corners(4px);
+		padding: 2em 3em;
+	}
+}
+
+.input-group-addon {
+	position: relative;
+	z-index: 100;
+	padding: 4px 12px;
+	.solid-shadow-input(rgba(226, 266, 228, 0.5));
+}
+
+.dashboard-head {
+	border-top: 4px solid @brand-primary;
+	.dashboard-user {
+		color: #fff;
+		background-color: @brand-primary;
+		p {
+			margin-bottom: 0;
+			padding: .2em 0;
+			line-height: 1.2em;
+		}
+	}
+	.dashboard-user-cambio {
+		padding: .3em .5em;
+	}
+}
+
+
+.noticias_subtitulo {
+	font-size: 1.7em;
+	color: @brand-primary;
+}
+
+.noticias_fecha {
+	font-size: 1.4em;
+	color: lighten(@texto-light,40%);
+	margin-left: 2em;
+}
+
+.noticias_contenido {
+	color: @texto;
+	margin-top: 1em;
+}
+
+.form-error-inline {
+	width: 7px;
+	height: 19px;
+	background-image: url(../img/admin_theme/error-validation.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	right: 3px;
+	bottom:0;
+}
+
+.panel {
+	.box-shadow-none;
+}
+
+.admin-footer {
+	background-color: @texto;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	z-index: 1000;
+	p {
+		color: #fff;
+		margin-bottom: 0;
+		padding: .2em 0;
+		font-size: .85em;
+	}
+}
+.input-group-addon:last-child {
+	color: @brand-primary;
+}
+
+
+.form-control[readonly] {
+	background-color: #f0f0f0;	
+	&:focus {
+		border: 1px solid rgba(0, 0, 0, .15);
+		.box-shadow-none;
+	}										
+}
+

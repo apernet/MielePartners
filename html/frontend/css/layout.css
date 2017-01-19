@@ -1,0 +1,443 @@
+#wrapper {
+	position: relative;
+	width: 772px;
+	margin: 0 auto;
+	background: #FFF;
+}
+.container {
+	position: relative;
+	margin: -2px auto 0 auto;
+	width: 764px;
+	min-width: 764px;
+	max-width: 764px;
+	background: #FFF;
+	border: 1px solid #CCC;
+	overflow: hidden;
+}
+
+
+/*HEADER.........................................................................*/
+#head_banner {
+	position: relative;
+	width: 760px;
+	min-width: 760px;
+	max-width: 760px;
+	margin: 15px auto 0 auto;
+	padding: 2px;
+}
+#head_banner> a {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+#header { margin: 0 auto 0 auto; }
+
+#menu_header {
+	display: block;
+	width: 410px;
+	margin: 10px 0 0 0;
+	padding: 0 10px 0 0;
+}
+
+#menu_header_top> ul> .line {
+	float: left;
+	width:1px;
+	border-left: 1px solid #CCC;
+	vertical-align: middle;
+	height: 15px;
+}
+#menu_header_bottom> ul> .line {
+	float: left;
+	width:1px;
+	border-left: 1px solid #CCC;
+	vertical-align: middle;
+	height: 15px;
+}
+
+/*Menu logo*/
+#menu_logo { margin: 20px 0 0 0;}
+#menu_logo ul { display: block; }
+#menu_logo ul li {
+	display: block;
+	margin: 5px 0 0 0;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+#menu_logo ul li a {
+	display: block;
+	text-decoration: none;
+	color: #666;
+}
+#menu_logo ul li a:hover { color: #E73133; }
+
+/*Menu header top*/
+#menu_header_top { margin: 0 0 0 0;}
+#menu_header_top ul { vertical-align: middle; display: inline-block; float: right; }
+#menu_header_top ul li {
+	display: inline-block;
+	float: left;
+	margin: 0 2px;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+#menu_header_top ul li a { display: block; padding: 2px; text-decoration: none; }
+
+/*Index Search*/
+#index_search { margin: 10px 0 0 0 ; }
+#index_search form {
+	float: right;
+}
+
+/*Menu header bottom*/
+#menu_header_bottom { margin: 10px 0 0 0; }
+#menu_header_bottom ul { vertical-align: middle; display: inline-block; float: right; }
+#menu_header_bottom ul li {
+	display: inline-block;
+	float: left;
+	margin: 0 2px;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+#menu_header_bottom ul li a { display: block; padding: 2px; text-decoration: none; }
+
+
+/*MENU PRINCIPAL....................................................................*/
+#menu { margin: -2px auto 0 auto; height: 31px; }
+#menu> ul> .line {
+	float: left;
+	width: 1px;
+	margin: 6px 0 0 0;
+	border-left: 1px solid #CCC;
+	vertical-align: middle;
+	height: 20px;
+}
+#menu> ul {
+	display: block;
+	font-size: 11px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	
+}
+#menu> ul> li {
+	display: inline-block;
+	padding: 10px 5px;
+	float: left;
+}
+#menu> ul> li> a {
+	display: inline;
+	text-decoration: none; 
+}
+
+/*Sub menus*/
+#menu> ul li ul {
+	display: none;
+	z-index: 1000;
+}
+#menu> ul li:hover ul {
+	position: absolute;
+	display: block;
+	padding: 5px 5px;
+	background: #FFF;
+	border: 1px solid #CCC;
+}
+#menu> ul li:hover ul li {
+	display: block;
+	float: none;
+	margin: 4px 2px;
+	background: #FFF;
+}
+#menu> ul li ul a { text-decoration: none; }
+
+
+/*FOOTER....................................................................*/
+#footer {
+	border-top: 1px solid #CCC;
+	overflow: hidden;
+}
+#footer> .line {
+	float: left;
+	width: 1px;
+	margin: 20px 0 0 0;
+	border-left: 1px solid #CCC;
+	vertical-align: middle;
+	height: 125px;
+}
+
+/*Footer Izquierdo*/
+#footer> #foot_left {
+	width: 250px;
+	padding: 10px;
+	float: left;
+	display: inline-block;
+	overflow: hidden;
+	font-size: 11px;
+}
+#footer> #foot_left> h1 {
+	display: block;
+	padding: 10px 2px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #555;
+}
+#footer> #foot_left> .quickmenu {
+	display: inline-block;
+	float: left;
+	margin: 0 20px 0 10px;
+}
+#footer> #foot_left> .quickmenu li {
+	display: block;
+	margin: 4px 2px;
+}
+#footer> #foot_left> .quickmenu li a {
+	display: block;
+	text-decoration: none;
+}
+
+/*Footer Centro*/
+#footer> #foot_center {
+	width: 270px;
+	padding: 10px;
+	float: left;
+	display: inline-block;
+	overflow: hidden;
+	font-size: 11px;
+}
+#footer> #foot_center> h1 {
+	display: block;
+	margin: 0 0 0 5px;
+	padding: 10px 2px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #555;
+}
+#footer> #foot_center> p {
+	margin: 10px 0 10px 5px;
+}
+
+/*Footer Derecho*/
+#footer> #foot_right {
+	width: auto;
+	padding: 10px;
+	float: left;
+	display: inline-block;
+	overflow: hidden;
+	font-size: 11px;
+}
+#footer> #foot_right> h1 {
+	display: block;
+	margin: 0 0 0 5px;
+	padding: 10px 2px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #555;
+}
+
+
+/*CONTENIDO GENERAL.............................................................*/
+
+/*Contaner general*/
+#container {
+	float: none;
+	position: relative;
+	margin-left: 190px;
+	padding: 0px;
+	width: 580px;
+}
+#container> .wrapper {
+	border-left: 1px solid #CCC;
+	overflow: hidden;
+	width: 574px;
+	padding: 0;
+}
+
+/*Sidebar*/
+#sidebar {
+	float: left;
+	position: relative;
+	width: 190px;
+	overflow: hidden;
+}
+#sidebar> #titulo {
+	text-transform: uppercase;
+	padding: 10px;
+	display: block;
+	border-bottom: 1px solid #CCC;
+}
+#sidebar> #titulo h1 {
+	font-size: 18px;
+	color: #E73133;
+}
+#menu_categorias {
+	font-size: 11px;
+	width: 100%;
+	overflow: hidden;
+	
+}
+#menu_categorias> .categoria a {
+	display: block;
+	margin: 4px;
+	margin-left: 11px;
+	padding: 2px 2px 2px 11px;
+	cursor: pointer;
+	color: #666;
+	font-weight: bold;
+}
+#menu_categorias> .categoria a:hover, .categoria_selected {
+	background: url('../img/binieta_categoria.png') no-repeat left center;
+	text-decoration: underline;
+	color: #E73133;
+}
+#menu_categorias> ul {
+	display: block;
+	margin: 4px;
+	margin-left: 25px;
+	padding: 2px;
+}
+#menu_categorias> ul li {
+	display: block;
+	padding: 4px;
+	overflow: hidden;
+}
+#menu_categorias> ul li a {
+	display: block;
+}
+
+/*Formularios Generales.............................................................*/
+form> .text {
+	border: 1px solid #CCC;
+	padding: 4px;
+	font-size: 10px;
+	color: #666;
+	width: 220px;
+}
+form> .submit {
+	border: 1px solid #CCC;
+	padding: 3px 4px;
+	font-size: 12px;
+	text-transform: uppercase;
+	background: #AFAFAF;
+	color: #F1F1F1;
+    font-family: Arial,Helvetica,Verdana,Geneva,sans-serif;
+    font-size: 10px;
+}
+
+.a_btn {
+	display: inline-block;
+	background: #A7A7A7;
+	border: 1px solid transparent;
+	padding: 0;
+	margin 2px;
+}
+.a_btn> a {
+	display: inherit;
+	width: auto;
+	height; auto;
+	padding: 4px 5px;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFF;
+}
+.a_btn> a:hover {
+	color: #FFF;
+}
+
+/*Etiquetas Generales.............................................................*/
+h5 {
+	font-size: 10px;
+	font-weight: lighter;
+	text-align: left;
+	color: #666;
+}
+h4 {
+	font-size: 11px;
+	font-weight: bold;
+	text-align: justify;
+	color: #666;
+}
+h3 {
+	font-size: 16px;
+	font-weight: lighter;
+	text-align: left;
+	color: #E73133;
+}
+p {
+	font-size: 11px;
+	font-weight: lighter;
+	text-align: justify;
+	color: #666;
+}
+hr { border-bottom: 1px solid transparent; border-top: 1px solid #CCC; border-left: none; border-right: none; margin: 5px 2px 5px 2px; height: 1px; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; color: #E73133; }
+
+.btn_rojo{
+	background: none repeat scroll 0 0 #E73133;
+    border: 1px solid #E73122;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 2px;
+    padding: 4px 6px;
+    font-size: 11px;
+    text-decoration: none;
+}
+.btn_rojo:hover{	
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.tipos_div{
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 3px;
+	padding: 4px;
+}
+.add_foot{
+	border-top: 1px solid #CCC;
+	padding: 4px;
+	margin-top: 3px;
+}
+
+.color{
+	cursor: pointer;
+}
+.bordeRojo{
+	border: solid 2px #E73033;
+}
+
+.con_borde{
+	border: 1px solid  #CCC !important;
+}
+
+.tabla_cotizacion{
+	width: 100%;
+}
+
+.tabla_cotizacion thead tr{
+	border-top: 1px solid  #CCC;
+	border-bottom: 1px solid  #CCC;
+}
+
+.tabla_cotizacion  td{
+	padding:4px;
+}
+.altrow2{
+	background-color: #F1F1F1;
+}
+.td_accesorio{
+	border-top: px solid  #CCC;
+	border-bottom: 1px solid  #CCC;
+}
+.btn_cancelar{
+	background: none repeat scroll 0 0 #F1F1F1;
+    border: 1px solid #F1F1F1;
+    color: #E73133;
+    cursor: pointer;
+    margin: 2px;
+    padding: 4px 6px;
+    font-size: 11px;
+    text-decoration: none;
+}
+.btn_rojo:hover{	
+	color: #FFFFFF;
+	text-decoration: underline;
+}

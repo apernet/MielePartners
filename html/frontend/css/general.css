@@ -1,0 +1,536 @@
+
+#container .grid3 {
+	display: inline-block;
+	position: relative;
+	float: left;
+	width: 191.333333333px;
+	min-width: 191.333333333px;
+	max-width: 191.333333333px;
+	outline: 1px solid #CCC;
+	outline-offset: -0.5px;
+	overflow: hidden;
+}
+* .grid3> .check {
+	position: absolute;
+	display: block !important;
+	bottom: 3px;
+	right: 3px;
+	width: 15px;
+	height: 15px;
+	background: #FAFAFA;
+	border: 1px solid #CCC;
+	font-size: 11px;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 1000;
+	cursor:pointer;
+}
+* .grid3> .check> .mark {
+	display: block !important;
+	position: relative;
+	width: inherit;
+	height: inherit;
+	background: url('../img/icon_check.png') no-repeat center center;
+	cursor:pointer;
+}
+#container .grid3> .img3 {
+	position: relative;
+	display: inline-block;
+	width: 171px;
+	height: 171px;
+	margin: 10px 0 0 10px;
+	padding: 0;
+	overflow: hidden;
+}
+#container .grid3> .img3> a {
+	position: relative;
+	display: inline-block;
+	width: inherit;
+	height: inherit;
+	line-height: 171px;
+	text-align: center;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+#container .grid3> .img3> a> img {
+	vertical-align: middle;
+}
+
+#container .grid3> .descripcion> a { text-decoration: none; }
+#container .grid3> .descripcion {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	margin: 0px 5px 5px 5px;
+	padding: 5px 0 2px 0;
+	width: 181px;
+	height: 26px;
+	overflow: hidden;
+	font-size: 12px;
+	text-align: center;
+	color: #E73133;
+}
+
+/*Banner de categorias*/
+#container> .wrapper> hr { width: 100%; margin: 20px 0;}
+#container> .wrapper> .banner3 {
+	display: block;
+	width: 100%;
+	width: 571px;
+	height: 428px;
+	overflow: hidden;
+	float: none;
+	border: 1px solid transparent;
+}
+#container> .wrapper> .banner3> a {
+	display: block;
+	width: 100%;
+	width: 573px;
+	overflow: hidden;
+	float: none;
+	
+}
+/*
+#container> .wrapper> .banner3> a> img {
+	width: 573px;
+}
+#container> .wrapper> .banner3> img {
+	width: 573px;
+}
+*/
+
+/*Contenedor principal de index*/
+.index_container {
+	float: none;
+	width: 764px;
+	min-width: 764px;
+	max-width: 764px;
+}
+.index_container .banner1 {
+	margin: 10px;
+	width: 742px;
+	min-height: 200px;
+	overflow: hidden;
+	text-align: center;
+	border: 1px solid #CCC;
+}
+.index_container .banner1 img {
+	width: 740px;
+	margin-bottom: -4px;
+	
+}
+.index_container .banner1 a {
+	display: block;
+	width: 742px;
+	
+}
+.index_container .banner1> a img {
+	width: 742px;
+}
+
+/*GRID para index container*/
+.index_container> .grid_box {
+	margin: 0 0 0 11px;
+	width: 760px;
+	overflow: hidden;
+}
+.index_container> .grid_box> .grid3 {
+	margin: 4px 2px;
+	display: inline-block;
+	width: 240px;
+	overflow: hidden;
+}
+.index_container> .grid_box> .grid3> a { text-decoration: none; }
+.index_container> .grid_box> .grid3> a> .descripcion {
+	display: block;
+	width: 230px;
+	height: 11px;
+	position: relative;
+	border: 1px solid #CCC;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	margin: -4px auto 0 auto;
+	text-transform: uppercase;
+	padding: 8px 4px;
+	background: #FFF;
+	color: #E73133;
+}
+.index_container> .grid_box> .grid3> .img {
+	display: inline-block;
+	position: relative;
+	width: 238px;
+	height: 238px;
+	text-align: center;
+	border: 1px solid #CCC;
+	background: #fff;
+	overflow: hidden;
+}
+.index_container> .grid_box> .grid3> .img> a {
+	display: inherit;
+	position: relative;
+	line-height: 238px;
+	text-align: center;
+	width: inherit;
+	height: inherit;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.index_container> .grid_box> .grid3> .img> a img {
+	vertical-align: middle;
+}
+/*Contenedor de detalles de producto*/
+#detalles_producto> * {
+	margin: 5px auto 10px auto;
+}
+#detalles_producto> * .paginador {
+	float: right;
+	display: block;
+	padding: 2px;
+	margin: 1px 10px 1px 1px;
+}
+.paginador span {
+	display: inline-block;
+	padding: 1px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #888;
+}
+.paginador span> a:hover {
+	text-decoration: none;
+	color: #333;
+}
+#contenedor_opciones {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+#detalles_producto> #detalles_sidebar {
+	position: relative;
+	float: left;
+	width: 345px;
+	min-height: 530px;
+	overflow: hidden;
+	border-right: 1px solid #CCC;
+}
+#detalles_producto> #detalles_contenido {
+	position: relative;
+	float: none;
+	margin-left: 345px;
+	border-left: 1px solid #CCC;
+	width: 417px;  
+}
+
+/*Sidebar de "detalles del producto".*/
+#detalles_sidebar> .imagen_producto {
+	position: relative;
+	width: 330px;
+	height: 330px;
+	margin: 0 auto;
+	line-height: 330px;
+	text-align: center;
+	overflow: hidden;
+	text-align: center;
+}
+#detalles_sidebar> .imagen_producto img {
+	vertical-align: middle;
+	margin: auto;
+}
+
+#detalles_sidebar> #color_imagen_producto {
+	margin: 10px auto 20px auto;
+	clear: both;
+	width: 330px;
+	border-bottom: 1px solid #CCC;
+	height: auto;
+	overflow: hidden;
+}
+#color_imagen_producto> #grid_img_color {
+	width: 330px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#grid_img_color> .grid_img {
+	display: inline-block;
+	float: left;
+	margin: 2px;
+	border: 1px solid #AAA;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 11px;
+	color: #666;
+}
+#grid_img_color> .grid_img img {
+	width: 60px;
+	height: 60px;
+}
+#detalles_sidebar> #grid_productos_relacionados {
+	position: relative;
+	width: 330px;
+	margin: 0 auto;
+}
+#grid_productos_relacionados> .grid_pr {
+	display: inline-block;
+	float: left;
+	padding-bottom: 20px;
+	margin: 2px auto -2px auto;
+	border-bottom: 1px solid #CCC;
+	width: 330px;
+	overflow: hidden;
+}
+#grid_productos_relacionados> .grid_pr> .img_grid_pr {
+	width: 155px;
+	height: 130px;
+	line-height: 130px;
+	margin: auto;
+	float: left;
+	text-align: center;
+	background: #FFF;
+	overflow: hidden;
+}
+#grid_productos_relacionados> .grid_pr> .img_grid_pr a {
+	width: inherit;
+	height: inherit;
+	line-height: inherit;
+	text-align: center;
+	overflow: hidden;
+	text-decoration: none;
+}
+#grid_productos_relacionados> .grid_pr> .img_grid_pr img {
+	vertical-align: middle;
+	text-align: center;
+	margin: auto;
+}
+#grid_productos_relacionados> .grid_pr> .img_grid_descripcion {
+	display: inline-block;
+	float: right;
+	width: 174px;
+}
+
+#table_producto {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+}
+#table_producto> .thead {
+	display: block;
+	margin: 2px 0;
+	padding: 4px 2px;
+	border-bottom: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+}
+#table_producto> tr> td {
+	vertical-align: middle;
+	text-align: center;
+	overflow: hidden;
+}
+
+.navegacion {
+	width: 100%;
+	font-size: 11px;
+	color: #666;
+}
+
+.infoTabOff {
+    color: #666666;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: normal;
+    text-align: center;
+}
+#tabs> .tab_lash {
+	display: block !important;
+	background: #888 !important;
+}
+
+/*Estilo para el formulario de mesa de regalos*/
+.form_list {
+	display: block;
+	width: auto;
+	overflow: hidden;
+}
+.form_list li {
+	list-style: none;
+	display: block;
+	padding: 2px;
+	margin: 1px;
+}
+
+/*Imagen del designer*/
+#img_designer {
+	display: block;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	border-right: 1px solid #CCC;
+	text-align: center;
+}
+#img_designer> img {
+	text-align: center;
+	vertical-align: middle;
+}
+/*Estilos para formularios generales*/
+form * .text {
+	width: 250px;
+	padding: 4px 2px;
+	margin: 2px;
+	border: 1px solid #CCC;
+	background:  #FEFEFE;
+	font-size: 14px;
+	font-style: italic;
+	color: #909090;
+}
+form * .text:focus {
+	background: #FAFAFA;
+	color: #808080;
+}
+form * .button {
+	border: 1px solid #E73122;
+	background: #E73133;
+	padding: 4px 6px;
+	margin: 2px;
+	color: #FFF;
+	cursor: pointer;
+}
+form * .button:hover {
+	border: 1px solid #CCC;
+	background: #BBB;
+	color: #FFF;
+}
+form * label {
+	display: block;
+	width: auto;
+	padding: 4px;
+	margin: 2px;
+	font-size: 11px;
+	color: #666;
+}
+form * label>span {
+	display: inline-block;
+	font-size: 14px;
+	padding: 0;
+	color: #E73133;
+}
+
+#sidebar h1{
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 15px;
+	border-bottom: 1px solid #CCC;
+}
+
+/*Tabla de informacion de producto*/
+#tabs {
+	display: block;
+	position: relative;
+	margin: auto;
+	width: 395px;
+	height: 250px;
+	border: 1px solid #CCC;
+	overflow: hidden;
+	clear: both;
+}
+#tabs> .table_grid {
+	display: block;
+	position: relative;
+	margin: auto;
+	width: 395px;
+	height: 250px;
+	overflow: auto;
+	z-index: 1;
+}
+
+#tab_menu {
+	display: block;
+	width: 397px;
+	height: auto;
+	margin: auto;
+}
+#tab_menu li {
+	display: inline-block;
+	float: left;
+	margin: 0 1px 0 0;
+	position: relative;
+	border: 1px solid  #CCC;
+	overflow: hidden;
+	background: #EEEEEE;
+}
+#tab_menu li a {
+	display: inline-block;
+	height: 25px;
+	padding: 5px;
+	text-align: center;
+	line-height: 25px;
+	vertical-align: middle;
+	margin: 1px auto;
+	font-size: 10px;
+}
+
+/*paginador de productos*/
+.paginador {
+	margin: 5px auto 5px auto;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+}
+.paginador> a {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 10px;
+	color: #666;
+}
+.paginador> a:hover {
+	text-decoration: none;
+	color: #4D4D4D;
+}
+#p_pager {
+	border: 1px solid  #CCC;
+	padding: 2px;
+	width: 95px;
+}
+
+.p5{
+	padding: 5px;
+}
+.fl{
+	float: left;
+}
+.rojo_div{ 
+	margin: 5px auto 5px auto;
+	border: 15px solid  #E2020C;
+	float: left;
+}
+#descripcion_producto{
+	
+	padding: 20px;
+	font-size: 11px;
+}
+
+#descripcion_producto ul{
+	list-style:disc;
+}
+#descripcion_procducto ol{
+	list-style: decimal;
+	 
+}
+#descripcion_producto strong{
+	font-weight: bold;
+}
+#descripcion_producto em{
+	font-style: italic;
+}
+#descripcion_producto span{
+	text-decoration: underline;
+}
+.baner_center{
+	text-align: center;
+}

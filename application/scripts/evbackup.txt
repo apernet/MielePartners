@@ -1,0 +1,55 @@
+Reemplazar los siguientes datos:
+[dominio]
+[usuario] 
+[db_user] 
+[db_password]
+[db_name]
+
+/****************** FILES BACKUPS ********************/
+
+1) CREAR Y ACTIVAR SSH KEYS  
+su -
+mkdir /var/www/vhosts/[dominio]/backup
+ssh-keygen -f /var/www/vhosts/[dominio]/backup/ssh_key -t rsa -N ''
+rsync -e ssh /var/www/vhosts/[dominio]/backup/ssh_key.pub blackcore@blackcore.evbackup.com:ssh_keys/[usuario].pub
+ssh blackcore@blackcore.evbackup.com addkeys
+
+2) PROBAR CONEXION
+ssh -i /var/www/vhosts/[dominio]/backup/ssh_key blackcore@blackcore.evbackup.com
+
+
+3) RSYNC TEST
+rsync -avz --dry-run -e "ssh -i /var/www/vhosts/[dominio]/backup/ssh_key" /var/www/vhosts/[dominio]/httpdocs/files blackcore@blackcore.evbackup.com:/home/blackcore/[usuario]
+
+4) CREAR RSYNC PARA CRON (Mismo comando que el paso 3 sin dry-run).
+
+vim /var/www/vhosts/[dominio]/backup/saxFilesBackup.sh
+
+
+/***** CODIGO *****/
+
+#!/bin/sh
+
+# Daily Data Backup
+rsync -avz -e "ssh -i /var/www/vhosts/[dominio]/backup/ssh_key" /var/www/vhosts/[dominio]/httpdocs/files blackcore@blackcore.evbackup.com:/home/blackcore/[usuario]
+
+/***** FIN CODIGO *****/
+
+chmod +x /var/www/vhosts/[dominio]/backup/saxFilesBackup.sh
+
+/****************** DB BACKUP ********************/
+1) Con el usuario normal (no root):
+svn up system/application/scripts/db_backup.sh 
+
+
+2) COPIAR SCRIPT
+cp /var/www/vhosts/[dominio]/system/application/scripts/db_backup.sh /var/www/vhosts/[dominio]/backup/saxDatabaseBackup.sh
+chmod +x /var/www/vhosts/[dominio]/backup/saxDatabaseBackup.sh
+
+/****************** CRON JOBS ********************/
+1) AGREGAR AL CRON
+
+VISUAL=vim crontab -e
+
+5 */3 * * * /var/www/vhosts/[dominio]/backup/saxFilesBackup.sh
+0 */3 * * * /var/www/vhosts/[dominio]/backup/saxDatabaseBackup.sh [usuario] [db_user] '[db_password]' [db_name]

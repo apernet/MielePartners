@@ -1,0 +1,11 @@
+nbproject
+apple.com-access_log
+apple.com-error_log
+html/thumbs/cache
+application/config/routes.php
+application/config/database.php
+application/files
+html/pngfiles/
+html/pdffiles/
+html/files/
+

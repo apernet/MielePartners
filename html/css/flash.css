@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+.msg.warning span.msg_close{
+	color:#FFD52F;	
+}
+.msg.warning {
+	background:transparent url(../img/bc/ico-warning.gif) no-repeat scroll 10px 50%;
+	background-color:#FFF5CC;
+	border:2px solid #F2DD8C;
+}
+
+.msg.info span.msg_close{
+	color: #2FB5FF;
+}
+.msg.info {
+	background:transparent url(../img/bc/ico-info.gif) no-repeat scroll 10px 50%;
+	background-color:#fffffff;
+	border:1px solid #cccccc;
+}
+
+.msg.done span.msg_close{
+	color: #BBDF8D;
+}
+.msg.done {
+	background:transparent url(../img/bc/ico-done.gif) no-repeat scroll 10px 50%;
+	background-color:#f2f2f2;
+	border:2px solid #BBDF8D;
+}
+
+.msg.error span.msg_close,span.msg_close_div{
+	color: #FF2F2F;
+}
+.msg.error {
+	background:transparent url(../img/bc/ico-delete.gif) no-repeat scroll 10px 50%;
+	background-color:#f2f2f2;
+	border:2px solid #FFAEAE;
+}
+
+.msg {
+	padding:10px 10px 10px 35px;
+	margin: 0 0 2px 0;
+	position: relative;
+}
+.msg_close,.msg_close_div{
+	position:absolute;
+	right: 5px;
+	top: -2px;
+	font-size: 130%;
+	font-weight: bold;
+	cursor: pointer;
+}

@@ -1,0 +1,92 @@
+/*
+ * RESPALDO ARCHIVOS Y BASE DE DATOS CRON
+ */
+
+// QUE EL USUARIO PERTENESCA AL GRUPO DE APACHE (www-data) # usermod -G [grupo] [usuario]
+// REVISAR LA MEMORIA DE PHP CLI -> 128M en vim /etc/php5/cli/php.ini
+// PHP SAFEMODE OFF en /etc/php5/cli/php.ini
+// PARA GENERAR EL CERTIFICADO Y QUE SE CONECTE SIN CONTRASENA: 
+ ssh-keygen -t rsa
+
+EJEMPLO
+rsync -avz /Users/rezorte/Sites/vivemas/files/shared/ b539375@hanjin.dreamhost.com:unidad_valuacion
+/var/www/vhosts/sax.dominio.com/system/application/scripts/db_backup.sh unidad_valuacion DBUSER DBPASSWORD DBNAME 
+
+ACT
+rsync -avz /var/www/vhosts/sax.act-avaluos.com.mx/httpdocs/files b539375@hanjin.dreamhost.com:/home/b539375/act
+/var/www/vhosts/sax.act-avaluos.com.mx/system/application/scripts/db_backup.sh act codero5_act_db 'ka&loMnw1W(3' act_avaluos_sax2
+php /var/www/vhosts/sax.act-avaluos.com.mx/system/application/scripts/cron.php /cron/respaldo_pdfs
+	RESPALDO PDF
+	php /var/www/vhosts/sax.act-avaluos.com.mx/system/application/scripts/cron.php /cron/respaldo_pdfs/2012-04-18/2012-04-24
+	php /var/www/vhosts/sax.act-avaluos.com.mx/system/application/scripts/cron.php /cron/respaldar/2012-02-06_004607
+
+ACC 
+rsync -avz /var/www/vhosts/sax.accavaluos.com.mx/httpdocs/files b539375@hanjin.dreamhost.com:/home/b539375/acc
+/var/www/vhosts/sax.accavaluos.com.mx/system/application/scripts/db_backup.sh acc acc_sax2 'n4qK8NQevy' acc_sax2_db
+
+
+
+AG
+rsync -avz /var/www/vhosts/sax.agavaluos.mx/httpdocs/files b539375@hanjin.dreamhost.com:/home/b539375/ag
+/var/www/vhosts/sax.agavaluos.mx/system/application/scripts/db_backup.sh ag codero4_ag_db '62yYauKBD(' ag_avaluos_sax2
+
+
+AGAL
+rsync -avz /var/www/vhosts/sax.agal.com.mx/httpdocs/files b539375@hanjin.dreamhost.com:/home/b539375/agal
+/var/www/vhosts/sax.agal.com.mx/system/application/scripts/db_backup.sh agal codero3_agal_db 'spKKocy7ja' sax2_agal
+
+ANEP
+rsync -avz /var/www/vhosts/sax.anep.com.mx/httpdocs/files b539375@hanjin.dreamhost.com:/home/b539375/anep
+/var/www/vhosts/sax.anep.com.mx/system/application/scripts/db_backup.sh anep codero1_anep_db '8Kn32c4PMX' sax2_anep
+
+BASA
+rsync -avz /var/www/vhosts/sax.bufetedeavaluos.com/httpdocs/files b539375@hanjin.dreamhost.com:/home/b539375/basa
+/var/www/vhosts/sax.bufetedeavaluos.com/system/application/scripts/db_backup.sh basa codero3_basa_db '9NQsI2mQlm' sax2_basa
+php /var/www/vhosts/sax.bufetedeavaluos.com/system/application/scripts/cron.php /cron/respaldo_pdfs
+
+	php /var/www/vhosts/sax.bufetedeavaluos.com/system/application/scripts/cron.php /cron/respaldar
+	php /var/www/vhosts/sax.bufetedeavaluos.com/system/application/scripts/cron.php /cron/respaldo_pdfs/2011-12-01/2011-12-31
+	php /var/www/vhosts/sax.bufetedeavaluos.com/system/application/scripts/cron.php /cron/respaldo_pdfs/2012-01-01/2012-01-31 > /dev/null 2>&1 &
+	php -q /var/www/vhosts/sax.bufetedeavaluos.com/system/application/scripts/cron.php /cron/respaldo_pdfs/2011-01-01/2011-01-31 < /dev/null &
+
+CATSA 
+rsync -avz /var/www/vhosts/sax.catsa.com.mx/httpdocs/files b539375@hanjin.dreamhost.com:/home/b539375/catsa
+/var/www/vhosts/sax.catsa.com.mx/system/application/scripts/db_backup.sh catsa codero4_catsa_db 'ty6DW4o6C)j' catsa_sax2
+
+GMS
+rsync -avz /var/www/vhosts/sax.gmsavaluos.com.mx/httpdocs/files b539375@hanjin.dreamhost.com:/home/b539375/gms
+/var/www/vhosts/sax.gmsavaluos.com.mx/system/application/scripts/db_backup.sh gms codero3_gms_db '9yHc2TKDV7' sax2_gms
+
+IMV PENDIENTE
+CODERO
+	rsync -avz /var/www/vhosts/sax.imv-valuadores.com.mx/httpdocs/files b539375@hanjin.dreamhost.com:/home/b539375/imv
+	/var/www/vhosts/sax.imv-valuadores.com.mx/system/application/scripts/db_backup.sh imv codero1_anep_db '8Kn32c4PMX' DS24018_sax2_imv
+	rsync -avz /var/www/vhosts/sax.imv-valuadores.com.mx/httpdocs/files sax@50.56.242.198:files
+	rsync -avz /var/www/vhosts/sax.act-avaluos.com.mx/httpdocs/files imv@69.194.226.129:public_html/sax2
+	MIGRACION A E2 rsync -avz files imv@69.194.226.129:public_html/sax2/files_bk
+
+ELEVEN2
+	 rsync -avz /home/imv/public_html/sax2/files b539375@hanjin.dreamhost.com:/home/b539375/imv
+	 /home/imv/public_html/system/application/scripts/db_backup.sh imv imv_E2Imv '8;13L%~TnwsW' imv_sax2
+	
+
+
+
+
+fds334hj22
+
+
+VIP
+rsync -avz /var/www/vhosts/sax.vipavaluos.com.mx/httpdocs/files b539375@hanjin.dreamhost.com:/home/b539375/vip
+/var/www/vhosts/sax.vipavaluos.com.mx/system/application/scripts/db_backup.sh vip codero4_vip_db 'sxzlp7t8a&8' vip_avaluos_sax2
+	RESPALDO PDF
+	php /var/www/vhosts/sax.vipavaluos.com.mx/system/application/scripts/cron.php /cron/respaldo_pdfs/2012-01-23/2012-01-24 > /dev/null 2>&1 &
+	
+VASUIN	
+rsync -avz /var/www/vhosts/sax.vasuin.com/httpdocs/files b539375@hanjin.dreamhost.com:/home/b539375/vasuin
+/var/www/vhosts/sax.vasuin.com/system/application/scripts/db_backup.sh vasuin vasuin_sax2 'ka2loMnw1W93' vasuin_sax2_db
+
+
+VYG	
+rsync -avz /var/www/vhosts/sax.valuacionygestion.com/httpdocs/files b539375@hanjin.dreamhost.com:/home/b539375/vyg
+/var/www/vhosts/sax.vipavaluos.com/system/application/scripts/db_backup.sh vyg codero5_vyg_db 'z/Zy&IhbDBiw' vyg_sax2
