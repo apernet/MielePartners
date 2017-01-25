@@ -32,7 +32,7 @@ $config['cuota_minima_meses_sin_intereses']=10000;
 /** PROMOCIONES */
 $config['banamex_msi_vigencia']='2015-11-24 23:59:59';
 
-/*$config['american_express'] = array(
+$config['american_express'] = array(
 		'url' => 'https://gateway-na.americanexpress.com/api/rest/version/20/merchant/%s/session',
 		'merchant' => '9352568548',
 		'name' => 'MIELE SA DE CV ONLINE',
@@ -47,24 +47,24 @@ $config['banamex_msi_vigencia']='2015-11-24 23:59:59';
 						)
 				)
 		)
-);*/
-
-$config['american_express'] = array(
-	'url' => 'https://gateway-na.americanexpress.com/api/rest/version/20/merchant/%s/session',
-	'merchant' => 'TEST9352568548',
-	'name' => 'MIELE SA DE CV ONLINE',
-	'user' => 'merchant.TEST9352568548',
-	'password' => '1165374ef7c047a1ec33314a3873a1b2',
-	'data' => array(
-		'order' => array('currency' => 'MXN'),
-		'constraints' => array(
-			'paymentPlans' => array(
-				//'supported' => array('AMEX_PlanN'),
-				'numberOfPayments' => 12
-			)
-		)
-	)
 );
+
+//$config['american_express'] = array(
+//	'url' => 'https://gateway-na.americanexpress.com/api/rest/version/20/merchant/%s/session',
+//	'merchant' => 'TEST9352568548',
+//	'name' => 'MIELE SA DE CV ONLINE',
+//	'user' => 'merchant.TEST9352568548',
+//	'password' => '1165374ef7c047a1ec33314a3873a1b2',
+//	'data' => array(
+//		'order' => array('currency' => 'MXN'),
+//		'constraints' => array(
+//			'paymentPlans' => array(
+//				//'supported' => array('AMEX_PlanN'),
+//				'numberOfPayments' => 12
+//			)
+//		)
+//	)
+//);
 
 $config['banamex'] = array(
 	'url' => 'https://banamex.dialectpayments.com/vpcpay',
@@ -72,7 +72,8 @@ $config['banamex'] = array(
 	'data' => array(
 		'vpc_Version' => 1,
 		'vpc_Command' => 'pay',
-		'vpc_Merchant' => 'TEST1031554',
+//		'vpc_Merchant' => 'TEST1031554',
+                'vpc_Merchant' => '1031554',
 		'vpc_Currency' => 'MXN',
 		'vpc_Locale' => 'es_MX',
 		'vpc_AccessCode'=>'89C12BAE',
