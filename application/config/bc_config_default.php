@@ -66,6 +66,7 @@ $config['american_express'] = array(
 //	)
 //);
 
+/*
 $config['banamex'] = array(
 	'url' => 'https://banamex.dialectpayments.com/vpcpay',
 	'secure_hash' => '9F74FCDAD7E71632421F1B8F2ECEACBF',
@@ -81,8 +82,9 @@ $config['banamex'] = array(
 	),
 	'msi_18_plan_id'=>'BPWOI1'
 );
+*/
 
-/*$config['banamex'] = array(
+$config['banamex'] = array(
 		'url' => 'https://banamex.dialectpayments.com/vpcpay',
 		'secure_hash' => 'CA31932656719BB4413C6C6B62DFC808',// CA31932656719BB4413C6C6B62DFC808 - 9F74FCDAD7E71632421F1B8F2ECEACBF
 		'data' => array(
@@ -94,5 +96,5 @@ $config['banamex'] = array(
 				'vpc_AccessCode'=>'4D4BE4E2',// 4D4BE4E2 - 89C12BAE
 				'vpc_ReturnURL'=> $config['shop_url'].'payments/callback'
 		)
-);*/
+);
 /* PAGOS EN LINEA FIN */
