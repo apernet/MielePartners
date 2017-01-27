@@ -42,14 +42,7 @@ class Cotizacion extends Base
         $usuarios_cuentas_ids=$this->base->usuarios_cuentas_ids_get();
         $cotizaciones_cuenta = $this->base->tiene_permiso('cotizaciones_cuenta');
         $cotizaciones_todas = $this->base->tiene_permiso('cotizaciones_todas');
-
-        if ($cotizaciones_cuenta && empty($usuarios_cuentas_ids)) // COTIZACIONES DE LA CUENTA DEL USUARIO EN SESION
-            $this->db->where('cuentas_id', $this->session->userdata('cuentas_id'));
-        elseif($cotizaciones_cuenta && !empty($usuarios_cuentas_ids)) //COTIZACIONES DE LAS CUENTAS ASIGNADAS AL USUARIO INCLUYENDO LA DE LA SESSION
-            $this->db->where_in('cuentas_id', $usuarios_cuentas_ids);
-        elseif (!$cotizaciones_todas) // COTIZACIONES PROPIAS DEL USUARIO EN SESION
-            $this->db->where('usuario_id', $this->session->userdata('id'));
-
+        
         // FILTRO PRODUCTO
         if (!empty($cond['productos_id']))
         {
@@ -73,6 +66,15 @@ class Cotizacion extends Base
 
             $this->db->where_in('id', $ids_cotizaciones);
         }
+
+        if ($cotizaciones_cuenta && empty($usuarios_cuentas_ids)) // COTIZACIONES DE LA CUENTA DEL USUARIO EN SESION
+            $this->db->where('cuentas_id', $this->session->userdata('cuentas_id'));
+        elseif($cotizaciones_cuenta && !empty($usuarios_cuentas_ids)) //COTIZACIONES DE LAS CUENTAS ASIGNADAS AL USUARIO INCLUYENDO LA DE LA SESSION
+            $this->db->where_in('cuentas_id', $usuarios_cuentas_ids);
+        elseif (!$cotizaciones_todas) // COTIZACIONES PROPIAS DEL USUARIO EN SESION
+            $this->db->where('usuario_id', $this->session->userdata('id'));
+
+        
 
         // FILTRO CUENTA
         if (!empty($cond['cuentas_id']))
@@ -131,7 +133,7 @@ class Cotizacion extends Base
         if (!empty($cond['id']))
         	$this->db->where("id", $cond['id']);
     }
-
+    
     public function find($cond, $limit, $offset)
     {
         $this->pconditions($cond);
