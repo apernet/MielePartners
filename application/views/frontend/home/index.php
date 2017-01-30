@@ -17,8 +17,8 @@
 				<div class="item active"> <!-- contendedor de cada slide -->
 					<div class="front-banner-home">
 						<div class="row" align="center">
-							<video id="videoBanner" preload="metadata" height="348px" controls poster="https://3af1f88347c6ce7ecc54-7e024fc280aeb94c16ec8716e829f4c6.ssl.cf1.rackcdn.com/banners/imagenes/160418-Miele-BannerPoster.jpg">
-								<source src="https://3af1f88347c6ce7ecc54-7e024fc280aeb94c16ec8716e829f4c6.ssl.cf1.rackcdn.com/banners/videos/160418-Miele-BannerVideo.mp4" type="video/mp4" />
+							<video id="videoBanner" preload="metadata" height="348px" controls poster="<?php echo site_url("/files/banners/imagenes/160418-Miele-BannerPoster.jpg") ?>">
+								<source src="<?php echo site_url("/files/banners/videos/160418-Miele-BannerVideo.mp4") ?>" type="video/mp4"/>
 							</video>
 						</div>
 					</div>
