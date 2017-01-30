@@ -8,7 +8,7 @@ $config['mail_calificacion_compra']=array('aldo.bandera@miele.com.mx'); // Calif
 $config['nombre_venta_cliente_externo']='Paola Mesura'; // COMPRAS NUEVAS VENTA DIRECTA PARA MIELE SHOP
 
 $config['url']='http://www.mielepartners.com.mx/';
-$config['shop_url']='http://45.55.50.228/';
+$config['shop_url']='https://shop.miele.com.mx/';
 
 $config['calificacion_url']='http://localhost/miele/html/calificaciones/califica/';
 $config['guias_mecanicas_zip_size'] = 5242880; // 5 MB
