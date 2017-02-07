@@ -2946,8 +2946,8 @@ class Frontends extends Main {
 					$this->db->where('fp.eliminado',0);
 					$this->db->join('fotografias_productos as fp', 'fp.productos_id=p.id','left');
 					$this->db->limit(1);
-					$img_id=$this->db->get('productos as p')->row('foto_id');
-
+					$img_id = (($img_id=$this->db->get('productos as p')->row('foto_id')) > 0) ? $img_id : 0;
+                                        
 					$promociones[$i]['id']=$r['id'];
 					$promociones[$i]['nombre']=$r['nombre'];
 					$promociones[$i]['modelo']=$r['modelo'];
@@ -2955,7 +2955,7 @@ class Frontends extends Main {
 					$promociones[$i]['precio']=@$r['porcentaje_descuento']<100?$r['precio']:0.00;
 					$promociones[$i]['descuento']=@$r['porcentaje_descuento']<100?$r['porcentaje_descuento']:0;
 					$promociones[$i]['importe']=@$r['importe']?$r['importe']:0;
-					$promociones[$i]['path']=$this->config->item('cloudfiles')?$this->cloud_files->url_publica("files/productos/{$r['id']}/{$img_id}.jpg"):"files/productos/{$r['id']}/{$img_id}.jpg";
+                                        $promociones[$i]['path']=$this->config->item('cloudfiles')?$this->cloud_files->url_publica("files/productos/{$r['id']}/{$img_id}.jpg"): site_url("files/productos/{$r['id']}/{$img_id}.jpg");
 					$promociones[$i]['promocion']=1;
 					$promociones[$i]['cantidad']=1;
 				}
