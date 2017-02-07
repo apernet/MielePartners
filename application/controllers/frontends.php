@@ -2881,7 +2881,8 @@ class Frontends extends Main {
 
 			$datos['regalos']=array();
 			$datos['regalos'][$promocion_id]['promocion']= $regalos['promocion'];
-			$datos['regalos'][$promocion_id]['productos'][]= $regalos['productos'][0];
+                        if(isset($regalos['productos'][0]))
+                            $datos['regalos'][$promocion_id]['productos'][]= $regalos['productos'][0];
 			if(@$regalos['accesorios'][0])
 				$datos['regalos'][$promocion_id]['accesorios'][]= $regalos['accesorios'][0];
 
