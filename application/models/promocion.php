@@ -430,7 +430,8 @@ class Promocion extends Base {
 				elseif($promo['monto_minimo'] && $promo['monto_minimo']==$promo_mayor['monto_minimo'])
 				{
 					$iguales[$promocion_monto_mayor_id]=$promociones[$promocion_monto_mayor_id];
-					$iguales[$promo_id]=$promociones[$promo_cantidad];
+                                        if(isset($promociones[$promo_cantidad]))
+                                            $iguales[$promo_id]=$promociones[$promo_cantidad];
 					$promocion_monto_mayor_id = $promo_id;
 				}
 			}
