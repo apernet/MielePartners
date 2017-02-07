@@ -2947,7 +2947,7 @@ class Frontends extends Main {
 					$this->db->join('fotografias_productos as fp', 'fp.productos_id=p.id','left');
 					$this->db->limit(1);
 					$img_id_ = $this->db->get('productos as p')->row('foto_id');
-                                        $img_id = (($img_id_) > 0) ? $img_id_ : 0;
+                                        $img_id = (($img_id_) > 0 && !is_array($img_id_)) ? $img_id_ : 0;
                                         
 					$promociones[$i]['id']=$r['id'];
 					$promociones[$i]['nombre']=$r['nombre'];
