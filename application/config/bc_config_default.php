@@ -2,15 +2,15 @@
 /* EMAIL */
 $config['mail_compra_venta_directa']='montserrat.badiola@miele.com.mx'; 	// COMPRAS NUEVAS VENTA DIRECTA PARA MIELE PARTNERS
 $config['mail_compra_venta_distribuidor']='elisa.herrera@miele.com.mx'; // COMPRAS NUEVAS DISTRIBUDIORES PARA MIELE PARTNERS
-$config['mail_comentarios']=array('rodrigo@blackcore.com.mx');
-$config['mail_venta_cliente_externo']=array('montserrat.badiola@miele.com.mx'); // COMPRAS NUEVAS VENTA DIRECTA PARA MIELE SHOP
+$config['mail_comentarios']=array('info@miele.com.mx');
+$config['mail_venta_cliente_externo']=array('paola.mesura@miele.com.mx'); // COMPRAS NUEVAS VENTA DIRECTA PARA MIELE SHOP
 $config['mail_calificacion_compra']=array('aldo.bandera@miele.com.mx'); // Calificacion de productos
 $config['nombre_venta_cliente_externo']='Paola Mesura'; // COMPRAS NUEVAS VENTA DIRECTA PARA MIELE SHOP
 
-$config['url']='http://www.mielepartners.com.mx/';
+$config['url']='https://www.mielepartners.com.mx/';
 $config['shop_url']='https://shop.miele.com.mx/';
 
-$config['calificacion_url']='http://localhost/miele/html/calificaciones/califica/';
+$config['calificacion_url']='https://www.mielepartners.com.mx/calificaciones/califica/';
 $config['guias_mecanicas_zip_size'] = 5242880; // 5 MB
 /* EMAIL FIN */
 
