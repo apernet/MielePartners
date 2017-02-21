@@ -16,9 +16,9 @@ $config['crlf']="\r\n";
 $config['newline']="\r\n";
  * */
 $config['protocol']='smtp';
-$config['smtp_host']='localhost';
-$config['smtp_user']='';
-$config['smtp_pass']='';
-$config['smtp_port']=25;
-$config['crlf']='\r\n';
-$config['newline']='\r\n';
+$config['smtp_host']='mielepartners.com.mx';
+$config['smtp_user']='admin';
+$config['smtp_pass']='Miele2017';
+$config['smtp_port']=587;
+$config['crlf']= "\r\n";
+$config['newline']= "\r\n";
