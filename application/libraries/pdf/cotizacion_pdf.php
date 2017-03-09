@@ -190,7 +190,7 @@ class COTIZACION_PDF extends TCPDF
 	    		$this->SetFont($this->textfont,'B',$this->font_size);
 	    		$this->Cell(0,3,'AVISO DE PRIVACIDAD',0,1,'C',null,null,1);
 	    		$this->SetFont($this->textfont,'',$this->font_size);
-	    		$this->Cell(0,3,'Miele, S.A. de C.V. (Miele) protege y da legalidad a todos los datos proporcionados voluntariamente en nuestra base de datos. En caso de no querer participar en dicha base de datos, favor de notificarlo a montserrat.badiola@miele.com.mx   Para más información puedes consultar nuestra página web: www.miele.com.mx',0,1,'C',null,null,1);
+	    		$this->Cell(0,3,'Miele, S.A. de C.V. (Miele) protege y da legalidad a todos los datos proporcionados voluntariamente en nuestra base de datos. En caso de no querer participar en dicha base de datos, favor de notificarlo a  info@miele.com.mx   Para más información puedes consultar nuestra página web: www.miele.com.mx',0,1,'C',null,null,1);
 	    		
 	    	}
 	    	else//if ($this->r['cotizacion']->cuentas_id==2)
@@ -211,7 +211,7 @@ class COTIZACION_PDF extends TCPDF
     			$this->SetFont($this->textfont,'B',$this->font_size);
     			$this->Cell(0,3,'AVISO DE PRIVACIDAD',0,1,'C',null,null,1);
     			$this->SetFont($this->textfont,'',$this->font_size);
-    			$this->Cell(0,3,'Miele, S.A. de C.V. (Miele) protege y da legalidad a todos los datos proporcionados voluntariamente en nuestra base de datos. En caso de no querer participar en dicha base de datos, favor de notificarlo a angeles.fernandez@miele.com.mx   Para más información puedes consultar nuestra página web: www.miele.com.mx',0,1,'C',null,null,1);
+    			$this->Cell(0,3,'Miele, S.A. de C.V. (Miele) protege y da legalidad a todos los datos proporcionados voluntariamente en nuestra base de datos. En caso de no querer participar en dicha base de datos, favor de notificarlo a  info@miele.com.mx   Para más información puedes consultar nuestra página web: www.miele.com.mx',0,1,'C',null,null,1);
     			 
     			$this->Ln(1);
     			$this->SetFont($this->textfont,'B',$this->font_size);
@@ -245,7 +245,7 @@ class COTIZACION_PDF extends TCPDF
     			$this->Cell(8,2,'',0,0,'L',null,null,1);
     			$this->Cell(55,2,'',0,0,'L',null,null,1);
     			$this->SetFont($this->textfont,'B',$this->font_size);
-    			$this->Cell(0,2,'  * Favor de enviar comprobante de pago al correo electrónico',0,1,'L',null,null,1);
+//    			$this->Cell(0,2,'  * Favor de enviar comprobante de pago al correo electrónico',0,1,'L',null,null,1);
     			
     			$this->SetFont($this->textfont,'',$this->font_size);
     			$this->Cell(8,2,'',0,0,'L',null,null,1);
@@ -254,7 +254,7 @@ class COTIZACION_PDF extends TCPDF
     			$this->Cell(55,2,'',0,0,'L',null,null,1);
     			$this->Cell(65,2,'',0,0,'L',null,null,1);
     			$this->SetFont($this->textfont,'B',$this->font_size);
-    			$this->Cell(65,2,'clientes@miele.com.mx comprobante de pago para confirmar y entrega.',0,1,'L',null,null,1);
+//    			$this->Cell(65,2,'clientes@miele.com.mx comprobante de pago para confirmar y entrega.',0,1,'L',null,null,1);
     			
     			$this->SetFont($this->textfont,'',$this->font_size);
     			$this->Cell(8,2,'',0,0,'L',null,null,1);

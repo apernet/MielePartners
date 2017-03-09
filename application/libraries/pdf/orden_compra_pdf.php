@@ -428,7 +428,7 @@ class ORDEN_COMPRA_PDF extends TCPDF
  	    	$this->SetFont($this->textfont,'B',$this->font_size);
  	    	$this->Cell(0,3,'AVISO DE PRIVACIDAD',0,1,'C',null,null,1);
  	    	$this->SetFont($this->textfont,'',$this->font_size);
- 	    	$this->Cell(0,3,'Miele, S.A. de C.V. (Miele) protege y da legalidad a todos los datos proporcionados voluntariamente en nuestra base de datos. En caso de no querer participar en dicha base de datos, favor de notificarlo a angeles.fernandez@miele.com.mx   Para más información puedes consultar nuestra página web: www.miele.com.mx',0,1,'C',null,null,1);
+ 	    	$this->Cell(0,3,'Miele, S.A. de C.V. (Miele) protege y da legalidad a todos los datos proporcionados voluntariamente en nuestra base de datos. En caso de no querer participar en dicha base de datos, favor de notificarlo a info@miele.com.mx Para más información puedes consultar nuestra página web: www.miele.com.mx',0,1,'C',null,null,1);
 	 	    
 			//Page number
 			$this->SetFont($this->textfont,'',$this->font_size);
