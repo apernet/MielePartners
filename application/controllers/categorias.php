@@ -232,7 +232,10 @@ class Categorias extends Main {
     	$datos['r']=$this->base->read('productos_categorias',$categorias_id);
 
 		$orden = $datos['r']->video_orden?'_'.$datos['r']->video_orden:'';
-        $path = (!empty($orden))?$this->cloud_files->url_publica("files/categorias/{$datos['r']->id}{$orden}"):'';
+        $path = (!empty($orden))?
+                    ((isset($this->cloud_files)) ? 
+                        $this->cloud_files->url_publica("files/categorias/{$datos['r']->id}{$orden}") : site_url("files/categorias/{$datos['r']->id}{$orden}"))
+               : "";
         $path_play = site_url('img/categorias/play_icon.png');
 		$path_play_hover = site_url('img/categorias/play_icon_over.png');
 
