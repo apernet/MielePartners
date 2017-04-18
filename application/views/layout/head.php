@@ -2,6 +2,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({‘gtm.start’:
+    new Date().getTime(),event:‘gtm.js’});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!=‘dataLayer’?‘&l=‘+l:‘’;j.async=true;j.src=
+    ’https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,‘script’,‘dataLayer’,‘GTM-MT66XLH’);</script>
+    <!-- End Google Tag Manager -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src=“https://www.googletagmanager.com/ns.html?id=GTM-MT66XLH”
+    height=“0" width=“0” style=“display:none;visibility:hidden”></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -108,18 +119,6 @@
 			ga('send', 'pageview');
 		</script>
 	<?php endif;?>
-        
-        <!-- Google Tag Manager -->
-            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({‘gtm.start’:
-            new Date().getTime(),event:‘gtm.js’});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!=‘dataLayer’?‘&l=‘+l:‘’;j.async=true;j.src=
-            ’https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,‘script’,‘dataLayer’,‘GTM-MT66XLH’);</script>
-            <!-- End Google Tag Manager -->
-            <!-- Google Tag Manager (noscript) -->
-            <noscript><iframe src=“https://www.googletagmanager.com/ns.html?id=GTM-MT66XLH”
-            height=“0" width=“0” style=“display:none;visibility:hidden”></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
 </head>
 <body>
 <div class="backGround">
