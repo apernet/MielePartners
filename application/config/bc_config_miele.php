@@ -1,7 +1,7 @@
 <?php
 /* EMAIL */
-$config['mail_compra_venta_directa']=array('montserrat.badiola@miele.com.mx','elizabeth.carranza@miele.com.mx'); 	// COMPRAS NUEVAS VENTA DIRECTA PARA MIELE PARTNERS
-$config['mail_compra_venta_distribuidor']=array('elisa.herrera@miele.com.mx','ana.perez@miele.com.mx'); // COMPRAS NUEVAS DISTRIBUDIORES PARA MIELE PARTNERS
+$config['mail_compra_venta_directa']=array('montserrat.badiola@miele.com.mx'); 	// COMPRAS NUEVAS VENTA DIRECTA PARA MIELE PARTNERS
+$config['mail_compra_venta_distribuidor']=array('elisa.herrera@miele.com.mx','elizabeth.carranza@miele.com.mx'); // COMPRAS NUEVAS DISTRIBUDIORES PARA MIELE PARTNERS
 $config['mail_comentarios']=array('info@miele.com.mx');
 $config['mail_venta_cliente_externo']=array('paola.mesura@miele.com.mx'); // COMPRAS NUEVAS VENTA DIRECTA PARA MIELE SHOP
 $config['nombre_venta_cliente_externo']='Paola Mesura'; // COMPRAS NUEVAS VENTA DIRECTA PARA MIELE SHOP
