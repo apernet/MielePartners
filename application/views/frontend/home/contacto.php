@@ -11,13 +11,6 @@
 				<div class="col-lg-12">
 					<ul class="fa-ul">
 						<?php if(INTERNO):?>
-						<li>
-							<i class="fa-li fa fa-chevron-right fa-lg mt5 text-color-primario"></i>
-								<h3 class="no-margin">Comercial</h3><br>
-								<span class="front_cuerpoTexto">Maud Bailhache<br>
-								maud.bailhache@miele.com.mx<br>
-								Tel. 8503-9870 ext. 401</span>
-						</li>
 						<li class="mt20">
 								<span class="front_cuerpoTexto">Elisa Herrera<br>
 								elisa.herrera@miele.com.mx<br>
