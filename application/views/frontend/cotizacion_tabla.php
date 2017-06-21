@@ -311,7 +311,7 @@
 				    					</span>
                                         </td>
                                     <?php endif;?>
-									<?php if(!$ai->obligatorio && (@!$status_id || ( (INTERNO && @$status_id==1) || (!INTERNO && @in_array($status_id,array(1,2)))))):?>
+									<?php if(!$ai->obligatorio && isset($status_id) && (@!$status_id || ( (INTERNO && @$status_id==1) || (!INTERNO && @in_array($status_id,array(1,2)))))):?>
 										<?php $accesorio_consumible = (@$ai->consumible)?'Consumible':'Accesorio';?>
 										<td class="text-center">
 											<a class="accion accion3" href="<?php echo site_url('frontends/accesorio_individual_eliminar/'.@$cot_id.'/'.$accesorio_id); ?>">Eliminar <?php echo $accesorio_consumible;?></a>
