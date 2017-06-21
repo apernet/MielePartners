@@ -8,7 +8,7 @@ $config['mail_calificacion_compra']=array('aldo.bandera@miele.com.mx'); // Calif
 $config['nombre_venta_cliente_externo']='Paola Mesura'; // COMPRAS NUEVAS VENTA DIRECTA PARA MIELE SHOP
 
 $config['url']='http://www.mielepartners.com.mx/';
-$config['shop_url']='http://shop.miele.com.mx/';
+$config['shop_url']='https://shop.miele.com.mx/';
 
 $config['calificacion_url']='http://www.mielepartners.com.mx/calificaciones/califica/';
 $config['guias_mecanicas_zip_size'] = 5242880; // 5 MB
@@ -33,7 +33,7 @@ $config['cuota_minima_meses_sin_intereses']=10000;
 $config['banamex_msi_vigencia']='2015-11-24 23:59:59';
 
 $config['american_express'] = array(
-		'url' => 'http://gateway-na.americanexpress.com/api/rest/version/20/merchant/%s/session',
+		'url' => 'https://gateway-na.americanexpress.com/api/rest/version/20/merchant/%s/session',
 		'merchant' => '9352568548',
 		'name' => 'MIELE SA DE CV ONLINE',
 		'user' => 'merchant.9352568548',
