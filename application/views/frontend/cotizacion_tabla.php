@@ -238,7 +238,7 @@
 				    					</span>
 									</td>
 									<?php endif;?>
-									<?php if(!$acc->obligatorio && (@!$status_id || ( (INTERNO && @$status_id==1) || (!INTERNO && @in_array($status_id,array(1,2)))))):?>
+									<?php if(!$acc->obligatorio && isset($status_id) && (@!$status_id || ( (INTERNO && @$status_id==1) || (!INTERNO && @in_array($status_id,array(1,2)))))):?>
 										<?php $accesorio_consumible = (@$acc->consumible)?'Consumible':'Accesorio';?>
 										<td class="text-center">
 											<a class="accion accion3" href="<?php echo site_url('frontends/producto_eliminar/0/'.@$cot_id.'/'.$acc->id); ?>">Eliminar <?php echo $accesorio_consumible;?></a>
