@@ -1,7 +1,7 @@
 <?php $this->load->view('email/header'); ?>
-    <p>Hola <?php echo $cotizaciones->nombre_contacto?>.</p>
+<p>Hola <?php echo (isset($cotizaciones->nombre_contacto)) ? $cotizaciones->nombre_contacto : "" ?>.</p>
     <p>Gracias por comprar a trav&eacute;s de Miele Shop.</p>
-    <p>Su pedido se encuentra en estatus de: <?php echo $cotizaciones->status_compra?>.</p>
+    <p>Su pedido se encuentra en estatus de: <?php echo (isset($cotizaciones->status_compra)) ? $cotizaciones->status_compra : "" ?>.</p>
     <p>En breve su asesor de ventas Miele confirmará su env&iacute;o.</p>
     <div>
         <?php $this->load->view('email/pedido_detalle'); ?>

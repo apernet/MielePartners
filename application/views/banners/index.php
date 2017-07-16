@@ -91,8 +91,8 @@
 							</a>
 	    				<?php endif;?>
 					</td>
-					<td><?php echo ($ro->categorias_id)?$categorias[$ro->categorias_id]:'SIN CATEGOR&Iacute;A'; ?></td>
-					<td><?php echo ($ro->productos_id)?$productos[$ro->productos_id]:'SIN PRODUCTO'; ?></td>
+                                        <td><?php echo ($ro->categorias_id) ? (isset($categorias[$ro->categorias_id])) ? $categorias[$ro->categorias_id]:'SIN CATEGORIA' : "SIN CATEGORIA"; ?></td>
+                                        <td><?php echo ($ro->productos_id) ? (isset($productos[$ro->productos_id])) ? $productos[$ro->productos_id]:'SIN PRODUCTO' : 'SIN PRODUCTO'; ?></td>
 					<td ><?php echo $ro->activo?'Si':'No'; ?></td>
 					<td >
 						<a href="<?php echo site_url('banners/editar/'.$ro->id); ?>" class="accion accion1">Editar</a>
