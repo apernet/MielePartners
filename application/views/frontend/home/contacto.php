@@ -39,8 +39,8 @@
                                 </span>
                             </li>
                             <li class="mt20">
-                                <span class="front_cuerpoTexto">Lesly Manilla<br>
-                                    lesly.manilla@miele.com<br>
+                                <span class="front_cuerpoTexto">Leslye Manilla<br>
+                                    leslye.manilla@miele.com<br>
                                 </span>
                             </li>
                         <?php endif; ?>

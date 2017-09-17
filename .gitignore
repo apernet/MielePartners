@@ -8,4 +8,10 @@ application/files
 html/pngfiles/
 html/pdffiles/
 html/files/
-
+error.log
+requests.log
+server.csr
+server.key
+server.key.secure
+.gitignore
+error-ssl.log

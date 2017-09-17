@@ -32,7 +32,7 @@ $config['thumb_size']=150;
 
 /* EMAIL */
 $config['email']=array('info@miele.com.mx','Miele');
-$config['mail_bcc']=array('alejandra.gonzalez@miele.com.mx');//array('brenda.hernandez@miele.com.mx');
+$config['mail_bcc']=array('');//array('brenda.hernandez@miele.com.mx');
 $config['bcc_blackcore']=FALSE; // ACTIVAR SI PARA QUE ENVIE COPIA DE LOS CORREOS A BLACKCORE
 /* FIN EMAIL */
 
