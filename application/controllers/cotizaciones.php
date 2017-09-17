@@ -627,7 +627,12 @@ class Cotizaciones extends Main {
 		}
 
 		$data = array();
-		$cupon_ruta = $this->cloud_files->url_publica("files/cupones/{$cupon_id}/{$imagen_id}.jpg");
+
+        if($this->config->item('cloudfiles'))
+		    $cupon_ruta = $this->cloud_files->url_publica("files/cupones/{$cupon_id}/{$imagen_id}.jpg");
+        else
+            $cupon_ruta = site_url("files/cupones/{$cupon_id}/{$imagen_id}.jpg");
+
 		$data['folio_compra'] = $folio_compra = $this->base->get_dato('folio_compra', 'cotizaciones', array('id'=>$cotizaciones_id));
 		$data['cupon_folio'] = $cupon_folio;
 
