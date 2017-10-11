@@ -6,7 +6,7 @@
     </div>
     <div id="collapseThree" class="panel-collapse collapse in">
       	<div class="panel-body">
-			<?php if(!empty($promociones) && (@!$status_id || (@$status_id && in_array($status_id,array(2,3,4,5)) && @$promociones_id))):?>
+			<?php if(!empty($promociones) && isset($status_id) && (@!$status_id || (@$status_id && in_array($status_id,array(2,3,4,5)) && @$promociones_id))):?>
 			<div class="panel-group front_panel" id="promociones">
 				<div class="panel panel-default" id="productos_div">
 					<div id="collapsePromociones" class="panel-collapse collapse in">
