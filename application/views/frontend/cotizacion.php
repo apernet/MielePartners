@@ -318,7 +318,7 @@
 					<a class="btn btn-front-primary pull-right" href="<?php echo site_url('frontends/generar_cotizacion'); ?>"><?php echo 'Generar cotizaci&oacute;n';?></a>
 				<?php else:?>
 					<?php //$url_cupon = @$r['folio_cupon'] && @$r['cupones_id']?"/{$r['descuento_cupon']}/{$r['cupones_id']}/{$r['folio_cupon']}/{$r['opcion_cupon_id']}":'';?>
-					<a class="btn btn-front-primary pull-right"  id="comprar"><?php echo 'Comprar';?></a>
+                    <a class="btn btn-front-primary pull-right" href="<?php echo site_url('frontends/informacion_cliente'); ?>" id="comprar"><?php echo 'Comprar';?></a>
 				<?php endif;?>
 			<?php endif;?>
 			<a class="btn btn-front-default pull-right" href="<?php echo site_url('frontends/index'); ?>"><?php echo INTERNO?'Agregar m&aacute;s productos':'Seguir comprando';?></a>
@@ -822,15 +822,6 @@ $(function(){
 	<?php endif;?>
 
 	condiciones_comerciales();
-});
-
-$(document).ready(function(){
-    $('#comprar').on("click", function(){
-            alertify.set({ labels: { ok: 'Aceptar' } });
-            alertify.alert('Estamos trabajando para darte un mejor servicio, por ello la entrega de tu pedido se programara a partir del día 18 de julio, enviándote una confirmación de entrega vía correo electrónico.', function(a) {
-                                                location.href = "<?php echo site_url('frontends/informacion_cliente'); ?>";
-                                    });
-    });
 });
 
 </script>
