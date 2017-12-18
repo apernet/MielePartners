@@ -1242,7 +1242,7 @@ class Descuento extends Base
 		$this->base->guarda('cotizaciones',$datos);
 
 		$subtotal=$descuentos['subtotal_distribuidor'];
-		$subtotal_venta_directa=$descuentos['descuento_comercial_distribuidor'];
+        $subtotal_venta_directa=(isset($descuentos['descuento_comercial_distribuidor'])) ? $descuentos['descuento_comercial_distribuidor'] : 0;
 		if($debug)debug($descuentos);
 		//VENTA DIRECTA
 		$referidos=$this->base->value_get('cotizaciones',$cotizaciones_id,array('referido_distribuidor_id','referido_porcentaje_comision'));if($debug)debug($referidos);
@@ -1312,7 +1312,7 @@ class Descuento extends Base
 
 		//COMISIONES DEL VENDEDOR
 		$comision_vendedor=0;
-		if($descuentos['comisiones_vendedor'] > 0 && !$venta_directa)
+		if(isset($descuentos['comisiones_vendedor']) && $descuentos['comisiones_vendedor'] > 0 && !$venta_directa)
 		{
 			foreach($descuentos['comisiones_vendedor'] as $com)
 				$comision_vendedor+=$com;
