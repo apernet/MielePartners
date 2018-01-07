@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4aaf443-f9bd-4ed9-b141-21ccfcac64c8" name="Default" comment="changed site colors.&#10;new logo added">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/img/admin_theme/login-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/img/layout/MieleImmerBesser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/img/layout/logo-miele.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/img/layout/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/img/layout/logo_mini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/admin_theme/login-logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/layout/MieleImmerBesser.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/layout/logo-miele.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/layout/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/layout/logo_mini.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/img/admin_theme/Logo_MIELE.png" afterPath="$PROJECT_DIR$/html/img/admin_theme/Logo_MIELE.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/img/admin_theme/miele-logo.png" afterPath="$PROJECT_DIR$/html/img/admin_theme/miele-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MielePartners.iml" afterPath="$PROJECT_DIR$/.idea/MielePartners.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/pdf/cotizacion_pdf.php" afterPath="$PROJECT_DIR$/application/libraries/pdf/cotizacion_pdf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/pdf/orden_compra_pdf.php" afterPath="$PROJECT_DIR$/application/libraries/pdf/orden_compra_pdf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/comision.php" afterPath="$PROJECT_DIR$/application/models/comision.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/cotizacion.php" afterPath="$PROJECT_DIR$/application/models/cotizacion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/referido.php" afterPath="$PROJECT_DIR$/application/models/referido.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/frontend/layout/header_public.php" afterPath="$PROJECT_DIR$/application/views/frontend/layout/header_public.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/pdfs/cotizacionhtml.php" afterPath="$PROJECT_DIR$/application/views/pdfs/cotizacionhtml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/construccion.html" afterPath="$PROJECT_DIR$/html/construccion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/admin_theme.css" afterPath="$PROJECT_DIR$/html/css/admin_theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/bc_styles.css" afterPath="$PROJECT_DIR$/html/css/bc_styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/bc_styles.less" afterPath="$PROJECT_DIR$/html/css/bc_styles.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/front.css" afterPath="$PROJECT_DIR$/html/css/front.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/front.less" afterPath="$PROJECT_DIR$/html/css/front.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/less/bootstrap.css" afterPath="$PROJECT_DIR$/html/css/less/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/less/theme.css" afterPath="$PROJECT_DIR$/html/css/less/theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/less/variables.less" afterPath="$PROJECT_DIR$/html/css/less/variables.less" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="theme.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/less/theme.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="53" column="53" lean-forward="true" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comision.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/comision.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="183" column="45" lean-forward="true" selection-start-line="183" selection-start-column="45" selection-end-line="183" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cotizacion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/cotizacion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="996">
+              <caret line="1584" column="13" lean-forward="false" selection-start-line="1584" selection-start-column="13" selection-end-line="1584" selection-end-column="13" />
+              <folding>
+                <marker date="1515358665000" expanded="true" signature="35880:35953" ph="UPDATE cuent... " />
+                <marker date="1515358665000" expanded="true" signature="37353:37423" ph="UPDATE cotiz... " />
+                <marker date="1515358665000" expanded="true" signature="37458:37544" ph="UPDATE cotiz... " />
+                <marker date="1515358665000" expanded="true" signature="38339:38426" ph="UPDATE cuent... " />
+                <marker date="1515358665000" expanded="true" signature="39183:39267" ph="UPDATE cotiz... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cotizacion_pdf.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/libraries/pdf/cotizacion_pdf.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cotizacionhtml.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/pdfs/cotizacionhtml.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="construccion.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/construccion.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orden_compra_pdf.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/libraries/pdf/orden_compra_pdf.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="492" column="38" lean-forward="true" selection-start-line="492" selection-start-column="38" selection-end-line="492" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="front.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/front.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-115734">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_theme.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/admin_theme.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="262" column="1" lean-forward="true" selection-start-line="262" selection-start-column="1" selection-end-line="262" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="front.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/front.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="7726" column="19" lean-forward="true" selection-start-line="7726" selection-start-column="19" selection-end-line="7726" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>clou</find>
+      <find>cloud_files</find>
+      <find>Estamos trabajando para darte un mejor servicio, por ello la entrega de tu pedido se programara a partir del día 18 de julio, enviándote una confirmación de entrega vía correo electrónico.</find>
+      <find>frontends</find>
+      <find>descuent</find>
+      <find>importe tot</find>
+      <find>cotizacion(</find>
+      <find>thumbs</find>
+      <find>useragent</find>
+      <find>conta</find>
+      <find>comentarios</find>
+      <find>mail_comentarios</find>
+      <find>descuento_comercial_distribuidor</find>
+      <find>b30000</find>
+      <find>a</find>
+      <find>8c0014</find>
+      <find>png</find>
+      <find>.jpg</find>
+      <find>e60000</find>
+      <find>Logo_MIELE.</find>
+      <find>miele-logo.png</find>
+      <find>logo_mini.</find>
+      <find>logo.jpg</find>
+      <find>M</find>
+      <find>MieleImmerBesser</find>
+      <find>logo-miele</find>
+      <find>logo_mini</find>
+      <find>logo.jp</find>
+      <find>logo-bar</find>
+      <find>Miele.gi</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>8c0014</replace>
+      <replace>91000f</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/html/img/admin_theme</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/application/controllers/frontends.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/application/libraries/CloudFiles.php" />
+        <option value="$PROJECT_DIR$/application/controllers/cotizaciones.php" />
+        <option value="$PROJECT_DIR$/application/config/database.php" />
+        <option value="$PROJECT_DIR$/system/core/Controller.php" />
+        <option value="$PROJECT_DIR$/application/views/frontend/cotizacion.php" />
+        <option value="$PROJECT_DIR$/application/views/frontend/cotizacion_tabla.php" />
+        <option value="$PROJECT_DIR$/application/controllers/frontends.php" />
+        <option value="$PROJECT_DIR$/application/models/base.php" />
+        <option value="$PROJECT_DIR$/application/config/email.php" />
+        <option value="$PROJECT_DIR$/application/config/bc_config_default.php" />
+        <option value="$PROJECT_DIR$/application/config/bc_config_miele.php" />
+        <option value="$PROJECT_DIR$/application/models/comentario.php" />
+        <option value="$PROJECT_DIR$/application/models/descuento.php" />
+        <option value="$PROJECT_DIR$/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/application/models/cotizacion.php" />
+        <option value="$PROJECT_DIR$/application/models/referido.php" />
+        <option value="$PROJECT_DIR$/html/css/less/bootstrap.css" />
+        <option value="$PROJECT_DIR$/html/css/less/variables.less" />
+        <option value="$PROJECT_DIR$/html/css/bc_styles.css" />
+        <option value="$PROJECT_DIR$/html/css/bc_styles.less" />
+        <option value="$PROJECT_DIR$/html/css/less/theme.css" />
+        <option value="$PROJECT_DIR$/application/models/comision.php" />
+        <option value="$PROJECT_DIR$/html/css/front.less" />
+        <option value="$PROJECT_DIR$/html/css/admin_theme.css" />
+        <option value="$PROJECT_DIR$/html/css/front.css" />
+        <option value="$PROJECT_DIR$/application/views/frontend/layout/header_public.php" />
+        <option value="$PROJECT_DIR$/application/libraries/pdf/cotizacion_pdf.php" />
+        <option value="$PROJECT_DIR$/application/views/pdfs/cotizacionhtml.php" />
+        <option value="$PROJECT_DIR$/html/construccion.html" />
+        <option value="$PROJECT_DIR$/application/libraries/pdf/orden_compra_pdf.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MielePartners" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MielePartners" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="MielePartners" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MielePartners" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="MielePartners" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MielePartners" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="MielePartners" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MielePartners" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="MielePartners" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MielePartners" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="files" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="MielePartners" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MielePartners" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="libraries" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="MielePartners" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MielePartners" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="libraries" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pdf" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="MielePartners" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MielePartners" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="MielePartners" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MielePartners" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="MielePartners" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MielePartners" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="MielePartners" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MielePartners" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="MielePartners" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MielePartners" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="MielePartners" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MielePartners" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin_theme" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="MielePartners" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MielePartners" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="thumbs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html/img/admin_theme" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4aaf443-f9bd-4ed9-b141-21ccfcac64c8" name="Default" comment="" />
+      <created>1505087289307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505087289307</updated>
+      <workItem from="1505087290816" duration="1207000" />
+      <workItem from="1505680183317" duration="4583000" />
+      <workItem from="1507690998049" duration="919000" />
+      <workItem from="1507777748515" duration="2367000" />
+      <workItem from="1507780232791" duration="125000" />
+      <workItem from="1508372250816" duration="7103000" />
+      <workItem from="1512593799368" duration="1881000" />
+      <workItem from="1512691568620" duration="2679000" />
+      <workItem from="1513551529525" duration="3426000" />
+      <workItem from="1515210692467" duration="615000" />
+      <workItem from="1515275917941" duration="4305000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix bug in url of IBS coupons">
+      <created>1505683618120</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1505683618120</updated>
+    </task>
+    <task id="LOCAL-00002" summary="email configuration changed">
+      <created>1505683844255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505683844255</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed bug $status_id in cotizacion_tabla">
+      <created>1507691195085</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1507691195085</updated>
+    </task>
+    <task id="LOCAL-00004" summary="popup removed">
+      <created>1507780254561</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1507780254564</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new mail config added">
+      <created>1513552789290</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1513552789290</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix bug in &quot;descuento&quot;">
+      <created>1513555582381</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1513555582381</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="29210000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="1026" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18051118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix bug in url of IBS coupons" />
+    <MESSAGE value="email configuration changed" />
+    <MESSAGE value="fixed bug $status_id in cotizacion_tabla" />
+    <MESSAGE value="popup removed" />
+    <MESSAGE value="new mail config added" />
+    <MESSAGE value="fix bug in &quot;descuento&quot;" />
+    <MESSAGE value="changed site colors.&#10;new logo added" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed site colors.&#10;new logo added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/models/payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="28" lean-forward="false" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/cotizaciones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8340">
+          <caret line="625" column="13" lean-forward="false" selection-start-line="625" selection-start-column="13" selection-end-line="625" selection-end-column="13" />
+          <folding>
+            <element signature="n#descargar_archivos#0;n#Cotizaciones#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/bc_config_default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="72" lean-forward="false" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/bc_config_miele.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="54" lean-forward="false" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <marker date="1497986176000" expanded="true" signature="400:406" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/cotizacion_tabla.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="92" lean-forward="true" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/bc_config_default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="72" lean-forward="false" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/cotizaciones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8340">
+          <caret line="625" column="13" lean-forward="false" selection-start-line="625" selection-start-column="13" selection-end-line="625" selection-end-column="13" />
+          <folding>
+            <element signature="n#descargar_archivos#0;n#Cotizaciones#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/bc_config_miele.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <marker date="1497986176000" expanded="true" signature="400:406" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/CloudFiles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/pruebas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="413" column="29" lean-forward="false" selection-start-line="413" selection-start-column="29" selection-end-line="413" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4404">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <marker date="1497986176000" expanded="true" signature="400:406" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/bc_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-911">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/cotizaciones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8340">
+          <caret line="625" column="13" lean-forward="false" selection-start-line="625" selection-start-column="13" selection-end-line="625" selection-end-column="13" />
+          <folding>
+            <element signature="n#descargar_archivos#0;n#Cotizaciones#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="47" lean-forward="false" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/database/DB_driver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/cotizacion_compra.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/core/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="50" column="50" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/frontends.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13020">
+          <caret line="868" column="171" lean-forward="false" selection-start-line="868" selection-start-column="171" selection-end-line="868" selection-end-column="171" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/cotizacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2595">
+          <caret line="173" column="67" lean-forward="false" selection-start-line="173" selection-start-column="67" selection-end-line="173" selection-end-column="67" />
+          <folding>
+            <marker date="1508383374000" expanded="true" signature="32257:32288" ph="..." />
+            <marker date="1508383374000" expanded="true" signature="33795:33801" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/cotizacion_tabla.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="424" column="32" lean-forward="false" selection-start-line="424" selection-start-column="32" selection-end-line="424" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/promocion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4695">
+          <caret line="313" column="31" lean-forward="false" selection-start-line="313" selection-start-column="31" selection-end-line="313" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/thumbs/timthumb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="56" column="46" lean-forward="true" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3915">
+          <caret line="266" column="17" lean-forward="false" selection-start-line="266" selection-start-column="17" selection-end-line="266" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/bc_config_default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/bc_config_miele.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/comentario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" column="36" lean-forward="false" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/descuento.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19620">
+          <caret line="1308" column="40" lean-forward="false" selection-start-line="1308" selection-start-column="40" selection-end-line="1308" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/img/admin_theme/Im_Fondo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/referido.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="313" column="108" lean-forward="false" selection-start-line="313" selection-start-column="108" selection-end-line="313" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/less/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29969">
+          <caret line="4941" column="30" lean-forward="false" selection-start-line="4941" selection-start-column="30" selection-end-line="4941" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/bc_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/bc_styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/less/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="53" column="53" lean-forward="true" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/img/admin_theme/Logo_MIELE.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/admin_theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="262" column="1" lean-forward="true" selection-start-line="262" selection-start-column="1" selection-end-line="262" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/front.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="7726" column="19" lean-forward="true" selection-start-line="7726" selection-start-column="19" selection-end-line="7726" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/front.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115734">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/comision.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="183" column="45" lean-forward="true" selection-start-line="183" selection-start-column="45" selection-end-line="183" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/cotizacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="996">
+          <caret line="1584" column="13" lean-forward="false" selection-start-line="1584" selection-start-column="13" selection-end-line="1584" selection-end-column="13" />
+          <folding>
+            <marker date="1515358665000" expanded="true" signature="35880:35953" ph="UPDATE cuent... " />
+            <marker date="1515358665000" expanded="true" signature="37353:37423" ph="UPDATE cotiz... " />
+            <marker date="1515358665000" expanded="true" signature="37458:37544" ph="UPDATE cotiz... " />
+            <marker date="1515358665000" expanded="true" signature="38339:38426" ph="UPDATE cuent... " />
+            <marker date="1515358665000" expanded="true" signature="39183:39267" ph="UPDATE cotiz... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/layout/header_public.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="72" lean-forward="true" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/pdf/cotizacion_pdf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/pdfs/cotizacionhtml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/construccion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/pdf/orden_compra_pdf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="492" column="38" lean-forward="true" selection-start-line="492" selection-start-column="38" selection-end-line="492" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

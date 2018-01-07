@@ -10,7 +10,7 @@
 	<tr >
 		<td width="20%" valign="top"><h6>PARTNER<br> <b>MIELE</b> </h6></td>
 		<td width="60%" valign="bottom" align="center" style="font-size: 24px;"><b>PRESUPUESTO</b></td>
-		<td rowspan="2" align="right"><img src="<?php echo base_url(); ?>img/layout/logo.jpg"></td>
+		<td rowspan="2" align="right"><img src="<?php echo base_url(); ?>img/layout/logo.png"></td>
 	</tr>
 	<tr >
 		<td > <h5>SANTA FE </h5></td>

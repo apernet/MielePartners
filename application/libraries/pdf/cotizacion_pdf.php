@@ -29,7 +29,7 @@ class COTIZACION_PDF extends TCPDF
     {
     	if($this->header)
     	{
-    		$img_file= FCPATH.'img/layout/MieleImmerBesser.jpg';
+    		$img_file= FCPATH.'img/layout/MieleImmerBesser.png';
     		if($img_file && file_exists($img_file))
 			{
 				$this->setJPEGQuality(100);

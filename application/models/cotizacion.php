@@ -1770,7 +1770,7 @@ class Cotizacion extends Base
 
         $tipo_encabezado = array(
             'rojo_miele' => array(
-                'fill' => array('type' => PHPExcel_Style_Fill::FILL_SOLID, 'color' => array('rgb' => 'e60000')),
+                'fill' => array('type' => PHPExcel_Style_Fill::FILL_SOLID, 'color' => array('rgb' => '8c0014')),
                 'font' => array('size' => 11, 'color' => array('rgb' => 'FFFFFF')),
                 'alignment' => array('horizontal' => PHPExcel_Style_Alignment::HORIZONTAL_CENTER),
             )
@@ -1907,7 +1907,7 @@ class Cotizacion extends Base
 
         $tipo_encabezado = array(
             'rojo_miele' => array(
-                'fill' => array('type' => PHPExcel_Style_Fill::FILL_SOLID, 'color' => array('rgb' => 'e60000')),
+                'fill' => array('type' => PHPExcel_Style_Fill::FILL_SOLID, 'color' => array('rgb' => '8c0014')),
                 'font' => array('size' => 11, 'color' => array('rgb' => 'FFFFFF')),
                 'alignment' => array('horizontal' => PHPExcel_Style_Alignment::HORIZONTAL_CENTER),
             )

@@ -51,7 +51,7 @@ class ORDEN_COMPRA_PDF extends TCPDF
     {
     	if($this->header)
     	{
-    		$miele_logo= FCPATH.'img/layout/MieleImmerBesser.jpg';
+    		$miele_logo= FCPATH.'img/layout/MieleImmerBesser.png';
     		if(file_exists($miele_logo))
 			{
 				$this->setJPEGQuality(100);
