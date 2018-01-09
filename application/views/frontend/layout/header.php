@@ -59,8 +59,7 @@
 				<img alt="" src="<?php echo site_url('img/admin_theme/Logo_MIELE.png');?>">
 			</div>
 			-->
-			<div class="col-lg-11 col-md-10 col-sm-9 col-xs-5 front-pleca"></div>
-			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-6">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 				<img class="" src="<?php echo site_url('img/admin_theme/Logo_MIELE.png');?>">
 			</div>
 			
