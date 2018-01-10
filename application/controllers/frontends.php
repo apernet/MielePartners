@@ -512,6 +512,7 @@ class Frontends extends Main {
 		$accesorios=array();
 		$promociones_productos=array();
 		$promociones_alianzas=array();
+        $folio_existente = NULL;
 
 		// Aqui se carga la cotizacion a la sesion
 		if($cotizaciones_id && !$agregar_nuevo && empty($_POST))

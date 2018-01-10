@@ -909,7 +909,7 @@
 	                			<?php endif;?>
 								<?php echo form_error('forma_pago_id');?>
 							</div>
-							<?php if($venta_directa):?>
+<!--							--><?php //if($venta_directa):?>
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 form-group">
 								<label><span class="req">*</span>Condiciones de Pago:</label>
 				        			<?php if(in_array($status_id,array(1,6))):?>
@@ -928,7 +928,7 @@
 	                				<div class="field-info"><?php echo @$condiciones_pago[$r['condiciones_pago_id']];?></div> -->
 								<?php echo form_error('condiciones_pago_id');?>
 							</div>
-	                		<?php endif;?>
+<!--	                		--><?php //endif;?>
 				      	</div>
 				    </div>
 				</div>
