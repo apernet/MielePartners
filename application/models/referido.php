@@ -368,6 +368,7 @@ class Referido extends Base {
 		header('Content-Transfer-Encoding: binary');
 
 		$objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
+        ob_end_clean();
 		$objWriter->save('php://output');
 		exit;
 	}

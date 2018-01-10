@@ -336,6 +336,7 @@ class Cupon extends Base {
     	header('Cache-Control: max-age=0');
     	 
     	$objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
+        ob_end_clean();
     	$objWriter->save('php://output');
     	exit;
     }
