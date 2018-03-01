@@ -7,6 +7,10 @@ body{
     color: #504F51;
 }
 
+.logo{
+    width: 100%;
+    text-align: center;
+}
 .logo-bar{
     top: 30px;
     position: absolute;
